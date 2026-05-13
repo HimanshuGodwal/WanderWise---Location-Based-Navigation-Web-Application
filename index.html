@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Maps Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnKsFwgWErjo2psBTFER6QqPsjTmihPGY&libraries=places"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>WanderWise ;)</h1>
+        <br>
+        <h4>Smart Paths for Curious Minds.</h4>
+        <p>A Treavelling Companion for your Journey!</p>
+    </div>
+    
+    <div class="controls">
+        <input type="text" id="from" placeholder="Origin">
+        <input type="text" id="to" placeholder="Destination">
+        <button id="routeBtn">Calculate Route</button>
+    </div>
+
+    <div class="buttons">
+        <button id="restaurantBtn">Restaurants</button>
+        <button id="cafeBtn">Cafes</button>
+        <button id="hospitalBtn">Hospitals</button>
+        <button id="stationeryBtn">Stationery Stores</button>
+        <button id="clubBtn">Clubs</button>
+        <button id="hostelBtn">Hostels</button>
+        <button id="templeBtn">Temples</button>
+        <button type="button" onclick="location.href='about.html'"> About Us </button>
+    </div>
+
+    <div id="mapContainer">
+        <div id="map"></div>
+        <div id="placeDetails" class="side-panel">
+            <h2>Place Details</h2>
+            <p>Click on a marker to view details.</p>
+        </div>
+    </div>
+
+
+    <div id="output"></div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
