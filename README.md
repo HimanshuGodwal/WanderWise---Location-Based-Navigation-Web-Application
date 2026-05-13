@@ -182,20 +182,9 @@ in your browser.
 
 # Screenshots
 
-Add project screenshots here.
+<img width="1918" height="1026" alt="image" src="https://github.com/user-attachments/assets/1cf4ba27-7662-4c50-808c-bb93a4882e47" />
+<img width="1918" height="922" alt="image" src="https://github.com/user-attachments/assets/ea233aea-36a6-4c4f-a7dc-786b9eb173f0" />
 
-Example:
-
-```bash
-/screenshots
-```
-
-Recommended screenshots:
-- Main map interface
-- Route calculation
-- Nearby places
-- Place details panel
-- Mobile responsive view
 
 ---
 
@@ -228,8 +217,6 @@ This project was created as a web mapping application using Google Maps APIs to 
 
 B.Tech Information Technology  
 Manipal University Jaipur
-
-Mentor: Virender Sir
 
 ---
 
